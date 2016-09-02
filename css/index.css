@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+/* MAIN */
+/* GREETING */
+.greeting {
+  padding-top: 80px;
+  color: #fff;
+  background: url(../img/greeting.jpg);
+  background-size: cover;
+  background-position: left top;
+  height: 550px; }
+
+.greeting-text {
+  padding-left: 100px;
+  padding-top: 30px;
+  max-width: 800px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+
+.greeting-text h1 {
+  font-weight: normal;
+  font-size: 34px; }
+
+.greeting-text h6 {
+  margin-top: -10px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px; }
+
+.greeting .phone {
+  position: absolute;
+  font-size: 28px;
+  line-height: 5px; }
+
+.recept {
+  color: #fff;
+  background-color: #2567bb;
+  position: absolute;
+  margin-top: 40px;
+  width: 280px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  transition: 0.5s; }
+
+.recept:hover {
+  background-color: #55aabb; }
+
+/* ABOUT + VIDEO */
+.about {
+  position: absolute;
+  height: 600px; }
+
+.youtube-video {
+  position: absolute;
+  margin-left: 480px;
+  margin-top: -500px;
+  border: 1px solid #2567bb; }
+
+/* LEFT-MENU */
+.left-menu {
+  width: 300px;
+  height: 550px;
+  border-right: 1px solid #2567bb;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding-top: 80px;
+  padding-left: 80px; }
+
+.left-menu-item {
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 20px;
+  width: 95%;
+  height: 38px;
+  list-style: none;
+  margin-left: -20px;
+  font-size: 1.1em;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-bottom: 1px solid #2567bb;
+  transition: 0.3s; }
+
+.left-menu-item:hover {
+  opacity: 0.9;
+  background-color: #cbe2ff; }
+
+.left-menu-item a {
+  color: #2567bb;
+  text-decoration: none; }
+
+/*     */
+.devider {
+  background-color: #2567bb;
+  width: 100%;
+  height: 50px; }
+
+/* NEWS */
+.news {
+  width: 100%;
+  height: 1050px;
+  color: #fff;
+  position: absolute;
+  margin-top: 600px; }
+
+.news-head {
+  height: 40px;
+  color: #2567bb;
+  padding-left: 100px;
+  font-weight: 700;
+  font-size: 1.8em; }
+
+.news-head a {
+  color: #2567bb;
+  text-decoration: none; }
+
+.news-block {
+  color: #2567bb;
+  background-color: #fff;
+  margin: 0 100px;
+  height: 1050px;
+  font-size: 0.7em;
+  font-weight: 200; }
+
+.news-img {
+  height: 200px;
+  width: 300px;
+  position: absolute; }
+
+.post1 {
+  float: left;
+  height: 230px;
+  border-bottom: 1px solid #2567bb;
+  margin-top: -10px; }
+
+.post {
+  float: left;
+  height: 230px;
+  border-bottom: 1px solid #2567bb;
+  padding-top: 30px; }
+
+.news-title {
+  margin-top: 0;
+  font-size: 1.7em;
+  font-weight: 500;
+  padding-left: 350px; }
+
+.news-title a {
+  text-decoration: none; }
+
+.news-preview-text {
+  margin-top: -10px;
+  padding-left: 350px;
+  font-size: 1.4em; }
+
+.news-date {
+  padding-left: 350px;
+  font-size: 1.4em;
+  margin-top: 2.5em; }
+
+.news-comments-count {
+  margin-top: -10px;
+  padding-left: 350px;
+  font-size: 1.4em; }
+
+.tonews {
+  margin-left: 35%;
+  color: #fff;
+  background-color: #2567bb;
+  margin-top: 36px;
+  width: 280px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  transition: 0.5s; }
+
+.tonews:hover {
+  background-color: #55aabb; }
+
+.tonews a {
+  color: #fff;
+  text-decoration: none; }
+
+/* PARTNERS */
+.partners {
+  position: absolute;
+  margin-top: 1590px;
+  background-color: #fff;
+  width: 100%;
+  color: #2567bb;
+  padding-top: 30px; }
+
+.partners p {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-weight: 700;
+  font-size: 1.8em; }
+
+.partner {
+  margin-left: 20px;
+  float: left;
+  padding-left: 20px;
+  margin-top: 0px; }
+
+.partner img {
+  width: 300px;
+  margin-left: 50px; }
+
+/* CLINIC */
+.clinic {
+  background: url(../img/udensroze.jpg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 2000px;
+  height: 400px;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center; }
+
+.clinic h2 {
+  margin-top: 50px;
+  font-weight: 200;
+  font-size: 36px;
+  text-shadow: 0 0 5px #000; }
+
+.clinic .recept {
+  margin-left: -150px;
+  margin-top: 180px;
+  transition: 0.5s; }
+
+.clinic .recept:hover {
+  background-color: #55aabb; }
+
+/*# sourceMappingURL=index.css.map */

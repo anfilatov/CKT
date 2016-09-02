@@ -1,0 +1,134 @@
+body 
+	margin: 0
+	padding: 0
+
+
+/* HEADER */
+
+.header-basic 
+	background-color: #fff
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15)
+	padding: 20px 40px
+	height: 80px
+	box-sizing: border-box
+
+
+.header-basic .header-limiter 
+	max-width: 1200px
+	text-align: center
+	margin: 0 auto
+
+
+.logo
+	height: 70px
+	float: left
+	margin-top: -15px
+
+
+
+/* header links */
+
+.header-basic .header-limiter a 
+	color: #737373
+	text-decoration: none
+	text-transform: uppercase
+
+
+.header-basic .header-limiter nav
+	font: 16px Arial, Helvetica, sans-serif
+	line-height: 40px
+	float: right
+
+
+.header-basic .header-limiter nav a
+	display: inline-block
+	padding: 0 10px
+	text-decoration: none
+	color: #737373
+	font-size: 16px
+	opacity: 0.8
+
+
+.header-basic .header-limiter nav a:hover
+	opacity: 1
+
+
+.header-basic .header-limiter nav a.selected 
+	color: #2567bb
+	pointer-events: none
+	opacity: 1
+
+
+
+/* FOOTER */
+
+.footer-basic
+	background-color: #2567bb
+	padding: 20px 40px
+	height: 50px
+	box-sizing: border-box
+	position: fixed
+	bottom: 0
+	width: 100%
+	color: #fff
+
+
+.footer-basic .footer-limiter 
+	max-width: 1200px
+	text-align: left
+
+.footer-basic .footer-limiter span
+	padding-left: 8%
+	color: #fff
+	line-height: 10px
+	font-size: 20px
+
+.footer-basic .footer-limiter .phone
+	position: absolute
+	font-size: 24px
+	line-height: 14px
+
+.social .container
+	position: relative
+	margin-bottom: -24px
+
+
+.social .container img
+	height: 24px
+	float: right
+	padding-left: 22px
+
+
+
+
+
+
+/* responsive */
+
+@media all and (max-width: 600px) 
+
+	.logo
+		height: 45px
+
+	.header-basic 
+		padding: 20px 0
+		height: 75px
+	
+
+	.header-basic .header-limiter h1 
+		float: none
+		margin: -8px 0 10px
+		text-align: center
+		font-size: 24px
+		line-height: 1
+	
+
+	.header-basic .header-limiter nav 
+		line-height: 1
+		float: none
+	
+
+	.header-basic .header-limiter nav a 
+		font-size: 13px
+	
+
