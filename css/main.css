@@ -62,7 +62,8 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: #fff; }
+  color: #fff;
+  box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.2); }
 
 .footer-basic .footer-limiter {
   max-width: 1200px;
@@ -86,7 +87,11 @@ body {
 .social .container img {
   height: 24px;
   float: right;
-  padding-left: 22px; }
+  padding-left: 22px;
+  transition: 0.5s; }
+
+.social img:hover {
+  opacity: 0.7; }
 
 /* responsive */
 @media all and (max-width: 600px) {
