@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.page-head {
+  padding-top: 100px;
+  padding-left: 100px;
+  height: 50px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.4em;
+  background-color: #2567bb; }
+
+.page-head a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s; }
+
+.page-head a:hover {
+  color: #ccc; }
+
+.post {
+  width: 87%;
+  padding-left: 100px;
+  padding-bottom: 80px; }
+
+.post-title {
+  font-weight: 500;
+  font-size: 1.4em;
+  color: #2567bb; }
+
+.post img {
+  width: 650px;
+  height: 400px; }
+
+/*# sourceMappingURL=post.css.map */
